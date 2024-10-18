@@ -1,0 +1,79 @@
+.container-page-ingressos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-ingresso {
+    padding: 1rem 4rem;
+    background-color: #007FF0;
+    max-width: 711px;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 508px;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+}
+
+.card-ingresso img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.card-eventos {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-eventos p,
+.card-eventos span {
+    color: #ffffff;
+}
+
+.title-evento {
+    margin-bottom: 8px;
+    display: block;
+}
+
+.card-eventos p {
+    margin: 0;
+    padding: 0;
+    margin-top: 8px;
+    max-width: 380px;
+}
+
+.date-evento {
+    margin-top: 8px;
+}
+
+.ativo {
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.card-action {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.card-action h3 {
+    font-size: 20px;
+}
+
+.card-action a {
+    background-color: #007FF0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 16px;
+    box-sizing: border-box;
+    align-self: center;
+    margin:auto 0;
+}
